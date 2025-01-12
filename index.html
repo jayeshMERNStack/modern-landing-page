@@ -1,29 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Basic Project</title>
-    <link rel="stylesheet" href="style.css" /> 
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <h1>Welcome to My Basic Project</h1>
+      <h1>Welcome to My Basic Project</h1>
+      <nav>
+        <ul class="navbar">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
-    <main>
-        <section>
-            <h2>Home</h2>
-            <p>
-                This is the home section where you can add some introductory text.
-            </p>
-        </section>
+  <main>
+  <section id="home" class="section active">
+    <h2>Home</h2>
+    <p>
+      This is the home section where you can add some introductory text.
+    </p>
+  </section>
+  <section id="about" class="section">
+    <h2>About</h2>
+    <p>
+      This section can be used to provide information about the project or yourself.
+    </p>
+  </section>
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>
+      Include your contact details or a form for visitors to reach out.
+    </p>
+  </section>
+</main>
 
-    </main>
-    
 
     <footer>
-        <p>&copy; 2025 My Basic Project</p>
+      <p>&copy; 2025 My Basic Project</p>
     </footer>
-
-</body>
+    <script src="nav.js"></script>
+  </body>
 </html>
